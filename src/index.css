@@ -1,0 +1,164 @@
+body {
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.characterinfo-container {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.characterinfo-container ul {
+  padding-left: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f2ecfb' fill-opacity='0.4'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 1em 0 3em 0;
+}
+.header-image {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+.nav a {
+  color: rgb(0,128,122);
+  margin: 0 7px;
+}
+.button {
+  background: orange;
+  border-radius: 40% 20% 40% 40% / 40% 70% 40% 60%;
+  border: 6px #fff;
+  cursor: pointer;
+  color: #000;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 18px;
+  padding: .5em;
+  text-decoration: none;
+  transition: all .5s;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+}
+.center {
+  margin: 0 auto;
+}
+.characters-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 3em;
+  transition: all .5s;
+}
+.tall-ctr {
+  min-height: 110vh;
+}
+.fig-ctr {
+  margin: 10px;
+}
+.character {
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: all .5s;
+  margin: 0;
+  z-index: 0;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  padding: 7px 0;
+}
+.dtl-btn {
+  background: orange;
+  border-radius: 40% 20% 40% 40% / 40% 70% 40% 60%;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.character div {
+  position: absolute;
+  background-color: rgba(0,0,0,.7);
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  padding: 1em;
+  transition: top .2s ease-in-out, bottom .2s ease-in-out;
+  width: 100%;
+}
+.character img {
+  max-width: 100%;
+}
+
+.character__info {
+    font-family: sans-serif;
+    width: 100%;
+  }
+.character__info tr {
+  border-bottom: 2px solid rgba(255,255,255, 0.5);
+  color: orange;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.character h2 {
+  margin: 0 0 15px 0;
+}
+
+.page-picker {
+  align-items: center;
+  border-radius: 40% 20% 40% 40% / 40% 70% 40% 60%;
+  display: flex;
+  justify-content: center;
+  max-width: 555px;
+  margin: 15px auto;
+}
+.page-picker p {
+  font-size: 22px;
+  padding: 1em;
+  margin: 0 22px;
+}

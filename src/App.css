@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font: sans-serif;
+  align-items: center;
+  font-size: 2.5rem;
+  background-color: rgb(201, 198, 233);
+  color: black;
+}
+
+.loading img {
+  height: 50%;
+}
+
+.paginator {
+  margin: auto;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  background-color: #EFE7DA;
+  color: #002626;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+
+.paginator button {
+  border: 0;
+  background-color: transparent;
+  margin: 0 5px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
